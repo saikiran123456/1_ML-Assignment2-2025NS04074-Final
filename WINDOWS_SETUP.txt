@@ -1,0 +1,21 @@
+ANACONDA PROMPT – WINDOWS SETUP
+
+cd /d D:\ML-Assignment2-2025NS04074-Final
+conda create -n vehicle-fraud-ml python=3.11 -y
+conda activate vehicle-fraud-ml
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+python -m ipykernel install --user --name vehicle-fraud-ml --display-name "Python (vehicle-fraud-ml)"
+jupyter notebook
+
+Open notebooks\Vehicle_Insurance_Fraud_Detection.ipynb.
+Select Kernel > Change Kernel > Python (vehicle-fraud-ml).
+Run notebook cells from top to bottom.
+
+To run the companion training script instead:
+python src\train_models.py
+
+To run the Streamlit application:
+streamlit run app.py
+
+Keep the dataset at data\fraud_oracle.csv. Do not upload your Conda environment folder to GitHub.
