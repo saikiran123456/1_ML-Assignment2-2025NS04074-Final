@@ -12,10 +12,9 @@ This project evaluates whether historical vehicle insurance claim records can be
 - Class counts: non-fraud = 14,497; fraud = 923
 - Split: stratified 80:20; random state = 42
 
-This is a historical vehicle-insurance dataset. It is not proprietary data from ICICI Lombard and is not described as an Indian insurer dataset.
+This is a historical vehicle-insurance dataset.
 
 ## GitHub repository
-Add the public repository URL here after creating and verifying the repository.
 
 ## Models and evaluation metrics
 All five classifiers use the same training/test split. Metrics are calculated for the fraud class as the positive class. AUC is binary ROC-AUC.
